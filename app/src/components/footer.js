@@ -1,8 +1,23 @@
+import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+
 const Footer = () => {
   return (
-    <div className="grid md:grid-cols-3">
+    <div className="grid md:grid-cols-2 bg-damo-blue py-5">
+      {/* socials */}
+      <div className="p-4 float-right">
+        <a href="" className="p-4">
+          <BsGithub size={40} className="bg-damo-blue hover:text-black" />
+        </a>
+        <a href="" className="p-4">
+          <BsLinkedin size={40} className="bg-damo-blue hover:text-black" />
+        </a>
+        <a href="" className="p-4">
+          <BsInstagram size={40} className="bg-damo-blue hover:text-black" />
+        </a>
+      </div>
+      {/* Sections */}
       <div className="p-4">
-        <ul className="decoration-none">
+        <ul className="">
           <li>
             <a href="">Test</a>
           </li>
@@ -13,12 +28,6 @@ const Footer = () => {
             <a href="">Test</a>
           </li>
         </ul>
-      </div>
-      <div className="p-4">
-        <form action="" className="inline-block">
-          <button className="px-5 py-3 w-[100px] bg-red-500">Join</button>
-          <input type="text" placeholder="email" type="email" />
-        </form>
       </div>
     </div>
   );
