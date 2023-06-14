@@ -6,7 +6,7 @@ module.exports = {
       "damo-primary": "#437FC7",
       "damo-secondary": "#6DAFFE",
       "damo-brown": "#B9732F",
-      "damo-white": "#EDF6FF"
+      "damo-white": "#EDF6FF",
     },
     extend: {},
   },
