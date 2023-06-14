@@ -8,9 +8,6 @@ const Footer = () => {
         {/* socials */}
         <div className="p-4 flex justify-end border-r-[1px]">
           <a href="" className="p-4">
-            <BsGithub size={40} className="hover:text-damo-primary" />
-          </a>
-          <a href="" className="p-4">
             <BsLinkedin size={40} className="hover:text-damo-primary" />
           </a>
           <a href="" className="p-4">
