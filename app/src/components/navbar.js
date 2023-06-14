@@ -66,15 +66,48 @@ const Navbar = () => {
                     style={{ right: "-60px" }} // Adjust the value as needed
                   >
                     <ul
-                      className="py-2 bg-white rounded shadow w-40"
+                      className="py-2 bg-white rounded shadow"
                       aria-labelledby="dropdownHoverButton"
+                      style={{ minWidth: "max-content" }}
                     >
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-damo-primary font-semibold flex items-center"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
                         >
                           <MdDesignServices className="mr-2" /> Web Design
+                        </a>
+                      </li>
+                      <li className="py-2 px-4 capitalize">
+                        <a
+                          href="#"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                        >
+                          <MdDesignServices className="mr-2" /> Web Re-Design
+                        </a>
+                      </li>
+                      <li className="py-2 px-4 capitalize">
+                        <a
+                          href="#"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                        >
+                          <MdDesignServices className="mr-2" /> Web Development
+                        </a>
+                      </li>
+                      <li className="py-2 px-4 capitalize">
+                        <a
+                          href="#"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                        >
+                          <MdDesignServices className="mr-2" /> Web Maintenance
+                        </a>
+                      </li>
+                      <li className="py-2 px-4 capitalize">
+                        <a
+                          href="#"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                        >
+                          <MdDesignServices className="mr-2" /> SEO
                         </a>
                       </li>
                     </ul>
