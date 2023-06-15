@@ -3,7 +3,7 @@ import { Button } from "../button";
 
 const Intro = () => {
   return (
-    <div className="pt-[100px] pb-[50px]">
+    <div className="pt-[200px] pb-[100px]">
       <div className="flex justify-center items-center flex-col">
         <Header>Lorem Ipsum Dolor Sit Amet</Header>
         <p className="text-[24px] w-[450px] md:w-[700px] lg:w-[850px] text-center pt-2">
