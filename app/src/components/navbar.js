@@ -60,7 +60,7 @@ const Navbar = () => {
                   </button>
                   <div
                     id="dropdownHover"
-                    className={`z-10 ${
+                    className={`z-20 bg-[#ffffff] ${
                       isDropdownOpen ? "" : "hidden"
                     } absolute top-0 right-0 mt-12`}
                     style={{ right: "-60px" }} // Adjust the value as needed
