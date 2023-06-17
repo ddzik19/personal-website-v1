@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       "damo-primary": "#437FC7",
-      "damo-secondary": "#6DAFFE",
+      "damo-secondary": "#CCE3FF",
       "damo-tirtrary": "#D0F5BE",
       "damo-brown": "#B9732F",
       "damo-white": "#EDF6FF",

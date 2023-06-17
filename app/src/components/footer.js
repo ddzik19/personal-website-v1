@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
