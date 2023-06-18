@@ -1,7 +1,7 @@
-export const Header = ({ children }) => {
+export const Header = ({ children, className }) => {
   return (
-    <div className="text-[40px] text-center font-bold capitalize text-damo-primary">
+    <h2 className={`text-[50px] ${className}  font-bold capitalize text-damo-primary`}>
       {children}
-    </div>
+    </h2>
   );
 };

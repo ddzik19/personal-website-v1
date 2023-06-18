@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import Intro from "./intro/intro";
 import About from "./about/about";
+import Services from "./services/services";
 
 const MainBody = () => {
   return (
@@ -8,6 +9,7 @@ const MainBody = () => {
       <Navbar />
       <Intro />
       <About />
+      <Services />
     </>
   );
 };
