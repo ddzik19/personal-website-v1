@@ -19,7 +19,7 @@ const Intro = () => {
           href={"#"}
           className={"mt-10 inline-block bg-damo-bright-orange border-none"}
         >
-          Contact Us
+          Get in Touch
         </Button>
       </div>
     </div>

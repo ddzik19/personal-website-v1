@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex items-center py-3 text-[18px]">
             <ul className="flex">
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-bright-orange font-semibold">
+                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
                   About Me
                 </a>
               </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     id="dropdownHoverButton"
                     data-dropdown-toggle="dropdownHover"
                     data-dropdown-trigger="hover"
-                    className="hover:text-damo-primary font-semibold flex"
+                    className="hover:text-damo-bright-orange font-semibold flex transition-all"
                     type="button"
                     onClick={toggleDropdown}
                   >
@@ -65,7 +65,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange transition-all"
                         >
                           <MdDesignServices className="mr-2" /> Web Design
                         </a>
@@ -73,7 +73,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange transition-all"
                         >
                           <MdDesignServices className="mr-2" /> Web Re-Design
                         </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange transition-all"
                         >
                           <MdDesignServices className="mr-2" /> Web Development
                         </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange transition-all"
                         >
                           <MdDesignServices className="mr-2" /> Web Maintenance
                         </a>
@@ -97,7 +97,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange transition-all"
                         >
                           <MdDesignServices className="mr-2" /> SEO
                         </a>
@@ -107,12 +107,12 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-primary font-semibold">
+                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
                   Portfolio
                 </a>
               </li>
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-primary font-semibold">
+                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
                   Get in Touch
                 </a>
               </li>
