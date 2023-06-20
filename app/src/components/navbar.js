@@ -12,23 +12,16 @@ const Navbar = () => {
 
   return (
     <>
-      {width > 1280 && (
-        <div className="flex justify-end h-2 py-2 pr-10">
-          <span id="span" className="mr-4">
-            <a href="#">info@d2.ie</a>
-          </span>
-        </div>
-      )}
       <div className="flex items-start justify-between pr-10">
         <div className="flex items-center">
           <img src="logo.png" alt="Logo" className="h-8 w-auto mr-4" />
         </div>
         {width > 1280 && (
-          <div className="flex items-center">
+          <div className="flex items-center py-3 text-[18px]">
             <ul className="flex">
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-primary font-semibold">
-                  About Us
+                <a href="#" className="hover:text-damo-bright-orange font-semibold">
+                  About Me
                 </a>
               </li>
               <li className="px-10 py-5 capitalize">
@@ -60,9 +53,8 @@ const Navbar = () => {
                   </button>
                   <div
                     id="dropdownHover"
-                    className={`z-20 bg-[#ffffff] ${
-                      isDropdownOpen ? "" : "hidden"
-                    } absolute top-0 right-0 mt-12`}
+                    className={`z-20 bg-[#ffffff] ${isDropdownOpen ? "" : "hidden"
+                      } absolute top-0 right-0 mt-12`}
                     style={{ right: "-60px" }} // Adjust the value as needed
                   >
                     <ul
@@ -73,7 +65,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
                         >
                           <MdDesignServices className="mr-2" /> Web Design
                         </a>
@@ -81,7 +73,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
                         >
                           <MdDesignServices className="mr-2" /> Web Re-Design
                         </a>
@@ -89,7 +81,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
                         >
                           <MdDesignServices className="mr-2" /> Web Development
                         </a>
@@ -97,7 +89,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
                         >
                           <MdDesignServices className="mr-2" /> Web Maintenance
                         </a>
@@ -105,7 +97,7 @@ const Navbar = () => {
                       <li className="py-2 px-4 capitalize">
                         <a
                           href="#"
-                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-primary"
+                          className="hover:text-white hover:bg-black font-semibold flex items-center hover:text-damo-bright-orange"
                         >
                           <MdDesignServices className="mr-2" /> SEO
                         </a>
@@ -121,7 +113,7 @@ const Navbar = () => {
               </li>
               <li className="px-10 py-5 capitalize">
                 <a href="#" className="hover:text-damo-primary font-semibold">
-                  Contact Us
+                  Get in Touch
                 </a>
               </li>
             </ul>
