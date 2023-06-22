@@ -38,7 +38,7 @@ const Services = () => {
     },
   ];
   return (
-    <Layout>
+    <Layout c1={"bg-damo-tint"}>
       <div className="w-[800px]">
         <Header>Services</Header>
         <Subheader>Everything you need</Subheader>

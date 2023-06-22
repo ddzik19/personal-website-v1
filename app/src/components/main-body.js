@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 import Intro from "./intro/intro";
-import About from "./about/about";
+import GetInTouch from "./contact form/get-in-touch";
 import Services from "./services/services";
 
 const MainBody = () => {
@@ -8,8 +8,8 @@ const MainBody = () => {
     <>
       <Navbar />
       <Intro />
-      <About />
       <Services />
+      <GetInTouch />
     </>
   );
 };

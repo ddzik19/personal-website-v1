@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useWindowDimensions from "../hooks/use-window-dimensions";
 import { MdDesignServices } from "react-icons/md";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const { width, height } = useWindowDimensions();
@@ -14,13 +15,16 @@ const Navbar = () => {
     <>
       <div className="flex items-start justify-between pr-10">
         <div className="flex items-center">
-          <img src="logo.png" alt="Logo" className="h-8 w-auto mr-4" />
+          <img src={Logo} alt="Logo" className="h-[60px] w-auto ml-4" />
         </div>
         {width > 1280 && (
           <div className="flex items-center py-3 text-[18px]">
             <ul className="flex">
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
+                <a
+                  href="#"
+                  className="hover:text-damo-bright-orange font-semibold transition-all"
+                >
                   About Me
                 </a>
               </li>
@@ -53,8 +57,9 @@ const Navbar = () => {
                   </button>
                   <div
                     id="dropdownHover"
-                    className={`z-20 bg-[#ffffff] ${isDropdownOpen ? "" : "hidden"
-                      } absolute top-0 right-0 mt-12`}
+                    className={`z-20 bg-[#ffffff] ${
+                      isDropdownOpen ? "" : "hidden"
+                    } absolute top-0 right-0 mt-12`}
                     style={{ right: "-60px" }} // Adjust the value as needed
                   >
                     <ul
@@ -107,12 +112,18 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
+                <a
+                  href="#"
+                  className="hover:text-damo-bright-orange font-semibold transition-all"
+                >
                   Portfolio
                 </a>
               </li>
               <li className="px-10 py-5 capitalize">
-                <a href="#" className="hover:text-damo-bright-orange font-semibold transition-all">
+                <a
+                  href="#"
+                  className="hover:text-damo-bright-orange font-semibold transition-all"
+                >
                   Get in Touch
                 </a>
               </li>
