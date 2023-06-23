@@ -6,7 +6,6 @@ import Services from "./services/services";
 const MainBody = () => {
   return (
     <>
-      <Navbar />
       <Intro />
       <Services />
       <GetInTouch />

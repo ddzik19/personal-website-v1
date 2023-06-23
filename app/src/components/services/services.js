@@ -64,6 +64,7 @@ const Services = () => {
       <div className="grid grid-cols-3 gap-4 pt-10">
         {array.map((val, index) => (
           <ServiceBox
+            index={index}
             title={val.title}
             desc={val.desc}
             key={index}
